@@ -1,0 +1,345 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+.resume-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #333;
+}
+
+.resume-button:focus {
+    outline: none;
+}
+
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 0;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+.LIVEDEMO-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.LIVEDEMO-button:hover {
+    background-color: #333;
+}
+
+.LIVEDEMO-button:focus {
+    outline: none;
+}
+
+/* Skills List */
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+ul li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Contact Section */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main container for content */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* About Section Styling */
+#about {
+    flex-grow: 1; /* This ensures the content expands to fill remaining space */
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto; /* This ensures the footer stays at the bottom */
+}
+
+
+/* Profile */
+#profile-container {
+    position: absolute; /* Keeps it absolute on the left */
+    top: 20px; /* Adjust this value to position vertically */
+    left: 20px; /* Adjust this value to position horizontally */
+    width: 150px; /* Set the width of the profile container */
+    height: 150px; /* Set the height of the profile container */
+ }
+ 
+ #profileImage {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: for a circular image */
+ }
+ 
+ /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main container for content */
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* About Section Styling */
+#about {
+    flex-grow: 1; /* This ensures the content expands to fill remaining space */
+    background-color: #f4f4f4;
+    padding: 40px;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto; /* This ensures the footer stays at the bottom */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    /* Adjust header */
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    /* Stack navigation items vertically */
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    header nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust about section padding */
+    #about {
+        padding: 20px;
+    }
+
+    /* Resume button in the center */
+    .resume-button {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+}
+
+/* Tablet to PC Styles */
+@media (min-width: 769px) {
+    /* Adjust header */
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    /* Align navigation items horizontally */
+    header nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    header nav ul li {
+        margin: 0;
+    }
+
+    header nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    /* Adjust about section padding */
+    #about {
+        padding: 40px;
+    }
+}
+
